@@ -1,0 +1,8 @@
+---
+:hierarchy:
+    - %{cfn_roles}
+    - common
+:backends:
+    - yaml
+:yaml:
+    :datadir: 'hieradata'

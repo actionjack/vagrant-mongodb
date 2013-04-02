@@ -1,0 +1,8 @@
+---
+mongodb_replica_set        : 'vagrant'
+mongodblogpath             : '/var/log/logs/mongod.log'
+mongodbdbpath              : '/var/lib/mongo'
+mongodbdirectoryperdb      : 'true'
+mongodbnssize              : '200'
+mongodb_profile            : '1'
+mongodb_slowms             : '100'
