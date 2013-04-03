@@ -1,3 +1,6 @@
 .DS_Store
 .vagrant
 Gemfile.lock
+*.swp
+*.idea
+*.tmp

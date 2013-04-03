@@ -19,8 +19,9 @@ node default {
     logpath        => hiera('mongodblogpath'),
     nssize         => hiera('mongodbnssize'),
     replSet        => hiera('mongodb_replica_set'),
+    smallfiles     => hiera('mongodb_smallfiles'),
+    rest           => 'true',
     profile        => hiera('mongodb_profile'),
     slowms         => hiera('mongodb_slowms')
   }
-  
 }
